@@ -1,0 +1,31 @@
+{
+  "name": "airtrik-react",
+  "version": "0.1.0",
+  "description": "React Package for Airtrik IoT Cloud ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airtrik/airtrik-react.git"
+  },
+  "keywords": [
+    "IoT",
+    "Cloud",
+    "Connect",
+    "Airtrik",
+    "React",
+    "airtrik-react"
+  ],
+  "author": "Kshitij Saini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/airtrik/airtrik-react/issues"
+  },
+  "homepage": "https://github.com/airtrik/airtrik-react#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "paho-mqtt": "^1.1.0"
+  }
+}
