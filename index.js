@@ -8,12 +8,13 @@ var AIRTRIK_mqttEndPoint = "airtrik.com";
 var AIRTRIK_clientId = Math.random().toString(36).substring(2);
 var AIRTRIK_portNumber = 8083
 var AIRTRIK_client = new Paho.Client(AIRTRIK_mqttEndPoint, AIRTRIK_portNumber, AIRTRIK_clientId)
+
 function onReceivePredefinedUniqueFunction(msg, deviceId){
     console.log("Message Received")
     console.log("Message    : " , msg)
     console.log("Deevice ID : ",deviceId)
 }
-function onConnectPredefinedUniqueFxn(){
+function onConnectPredefinedUniqueFunction(){
 	console.log("Connected")
 }
 function onConnectionLost(responseObject){
