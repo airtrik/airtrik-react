@@ -64,7 +64,7 @@ or else it will throw errors.
 ``` airtrik.send("__DEVICE_ID__","__KEY__")```
 
 To subscribe to a topic use subscribe(). subscribe() has one parameter which is deviceID. Subscribe can only be called when there is a connection established or else it will throw error.  
-```subscribe(__DEVICE_ID__)```
+```airtrik.subscribe(__DEVICE_ID__)```
 
 
   
