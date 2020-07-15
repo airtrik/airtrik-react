@@ -15,7 +15,7 @@ To install use the following command:
  
  init() function has 1 required parameter/arguement and two other optional arguements.
  
- 1. The first arguement is the APP_KEY which is required. Without the key, no other functions are possible.
+ 1. The first arguement is the `__APP_KEY__` which is required. Without the key, no other functions are possible.
  
   ``` 
       import * as airtrik from 'airtrik-react'  
@@ -23,6 +23,7 @@ To install use the following command:
       ...
       airtrik.init(__APP_KEY__)
   ```
+  To get the `__APP_KEY__` signup on [https://airtrik.com](https://airtrik.com/) and create app and device on platform.
   
  2. The second optional arguement is a callback function which will be executed when the connection is established between the server and the client. This is mainly written so that if 
  user wants to do some work when connection is established like showing up a message.
@@ -61,7 +62,7 @@ The package supports sending and subscribing of messages which is done by follow
 To send a message to the server use send(). send() function has two parameters, 1. deviceId 2. message. send() can only be called when there is a connection already established
 or else it will throw errors.
 
-``` airtrik.send("__DEVICE_ID__","__KEY__")```
+``` airtrik.send("__DEVICE_ID__","__MESSAGE__")```
 
 To subscribe to a topic use subscribe(). subscribe() has one parameter which is deviceID. Subscribe can only be called when there is a connection established or else it will throw error.  
 ```airtrik.subscribe(__DEVICE_ID__)```
