@@ -1,6 +1,6 @@
 {
   "name": "airtrik-react",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "React Package for Airtrik IoT Cloud ",
   "main": "index.js",
   "scripts": {
